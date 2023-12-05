@@ -30,8 +30,8 @@ var IpxeISO []byte
 
 // MagicString is included in each iPXE binary within the embedded script. It
 // can be overwritten to change the behavior at startup.
-var magicString = []byte(`#a8b7e61f1075c37a793f2f92cee89f7bba00c4a8d7842ce3d40b5889032d8881
-#ddd16a4fc4926ecefdfb6941e33c44ed3647133638f5e84021ea44d3152e7f97`)
+var magicString = []byte(`#a8b7e61f1075c37a793f2f92cee89f7bba00c4a8d7842ce3d40b5889032d88811018d6dd793b4889a09b5c78638d1745e239764a22c4440d8697cfa9aebcdcc4
+#ddd16a4fc4926ecefdfb6941e33c44ed3647133638f5e84021ea44d3152e7f97ddca37bae3474fb3afdbec7e26d4a5c444801f93140440e3-a4e0-64885578b7fd`)
 
 var magicStringPadding = bytes.Repeat([]byte{' '}, len(magicString))
 
